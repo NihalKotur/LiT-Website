@@ -1,0 +1,73 @@
+.active {
+    background-color: rgb(255, 255, 255, 0.6);
+    border-width: 2px;
+  }
+  
+  navbar {
+    position: absolute;
+    z-index: 10;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 35px;
+    padding-left: 35px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(0 0% 15% / 0.35);
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.4);
+    border-width: 2px;
+    border-radius: 24px;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .bg-image {
+    z-index: 0;
+    background-image: url("images/teamworking.png");
+    filter: blur(4px);
+    height: 150%;
+    background-size: cover;
+    display: flex;
+  
+  }
+  
+  tint {
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.4) 100%);
+  }
+  
+  .bg-text {
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #006efd;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    width: 800px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+  }
+
+  p {
+    left: 40%;
+    font-size: 25px;
+  }
